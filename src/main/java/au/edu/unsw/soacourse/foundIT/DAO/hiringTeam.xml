@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><teams>
+	<team>
+		<tId>t1</tId>
+		<size>4</size>
+		<reviewers>
+			<reviewer>
+				<rId>t11</rId>
+				<psw>123</psw>
+				<skill>java</skill>
+			</reviewer>
+			<reviewer>
+				<rId>t12</rId>
+				<psw>123</psw>
+				<skill>c++</skill>
+			</reviewer>
+			<reviewer>
+				<rId>t13</rId>
+				<psw>123</psw>
+				<skill>csharp</skill>
+			</reviewer>
+			<reviewer>
+				<rId>r9908</rId>
+				<psw>123</psw>
+				<skill>java</skill>
+			</reviewer>
+		</reviewers>
+	</team>
+
+	<team>
+		<tId>t2</tId>
+		<size>2</size>
+		<reviewers>
+			<reviewer>
+				<rId>t21</rId>
+				<psw>123</psw>
+				<skill>python</skill>
+			</reviewer>
+
+			<reviewer>
+				<rId>t22</rId>
+				<psw>123</psw>
+				<skill>shell</skill>
+			</reviewer>
+			<reviewer>
+				<rId>r2147</rId>
+				<psw>123</psw>
+				<skill>java</skill>
+			</reviewer>
+		</reviewers>
+	</team>
+
+	<team>
+		<tId>t2863</tId>
+		<size>5</size>
+		<reviewers><reviewer><rId>r6569</rId><psw>111</psw><skill>java</skill></reviewer><reviewer><rId>r5016</rId><psw>111</psw><skill>76767</skill></reviewer><reviewer><rId>r5695</rId><psw>111</psw><skill>sadatgerg</skill></reviewer><reviewer><rId>r1549</rId><psw>111</psw><skill>12124</skill></reviewer><reviewer><rId>r3286</rId><psw>111</psw><skill>dfgfsgd</skill></reviewer></reviewers>
+	</team>
+<team><tId>t3508</tId><size>1</size><reviewers><reviewer><rId>r1687</rId><psw>111</psw><skill>tt</skill></reviewer></reviewers></team><team><tId>t1277</tId><size>0</size><reviewers/></team></teams>

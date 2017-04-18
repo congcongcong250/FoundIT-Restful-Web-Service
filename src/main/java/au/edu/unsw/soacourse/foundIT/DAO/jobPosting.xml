@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><postings>
+
+
+	<posting>
+		<id>4136</id>
+		<comLink>google</comLink>
+		<salaryRate>80000</salaryRate>
+		<positionType>Programmer</positionType>
+		<location>san fran</location>
+		<description>IT.Good coding skills in java python. Knowledge of
+			operating system.</description>
+		<status>open</status>
+	</posting>
+	<posting>
+		<id>4135</id>
+		<comLink>google</comLink>
+		<salaryRate>60000</salaryRate>
+		<positionType>programmer</positionType>
+		<location>sydney</location>
+		<description>it God coding skill in Python, C, C++. contributed
+			system, software engineer</description>
+		<status>close</status>
+	</posting>
+	<posting>
+		<id>4100</id>
+		<comLink>google</comLink>
+		<salaryRate>140000</salaryRate>
+		<positionType>IT manager</positionType>
+		<location>san fran</location>
+		<description>management skills. at least 3 years of experience.
+			project management</description>
+		<status>close</status>
+	</posting>
+	<posting>
+		<id>4101</id>
+		<comLink>google</comLink>
+		<salaryRate>60000</salaryRate>
+		<positionType>it manager</positionType>
+		<location>sydney</location>
+		<description>management skills. at least 3 years of experience.hr
+			management project management</description>
+		<status>close</status>
+	</posting>
+	<posting>
+		<id>4102</id>
+		<comLink>yahoo</comLink>
+		<salaryRate>60000</salaryRate>
+		<positionType>hr manager</positionType>
+		<location>sydney</location>
+		<description>management skills. at least 3 years of experience. hr
+			management</description>
+		<status>open</status>
+	</posting>
+	<posting>
+		<id>4103</id>
+		<comLink>yahoo</comLink>
+		<salaryRate>80000</salaryRate>
+		<positionType>software engineering</positionType>
+		<location>san fran </location>
+		<description>Good coding skill in Python, C, C++, Scala. contributed
+			system, software engineer</description>
+		<status>open</status>
+	</posting>
+	<posting>
+		<id>7595</id>
+		<comLink>google</comLink>
+		<salaryRate>100000</salaryRate>
+		<positionType>front-end</positionType>
+		<location>maroubra</location>
+		<description>111111111111111111111</description>
+		<status>open</status>
+	</posting>
+<posting><id>8350</id><comLink>9322</comLink><salaryRate>100000</salaryRate><positionType>CTO</positionType><location>nanning</location><description>good jobcome and see</description><status>open</status></posting><posting><id>3054</id><comLink>9322</comLink><salaryRate>1000</salaryRate><positionType>lai</positionType><location>shanghai</location><description>laibicailai</description><status>open</status></posting><posting><id>9383</id><comLink>9322</comLink><salaryRate>20000</salaryRate><positionType>coo</positionType><location>sydney</location><description>average position</description><status>open</status></posting><posting><id>9122</id><comLink>unsw</comLink><salaryRate>14134</salaryRate><positionType>12414</positionType><location>123123</location><description>4134134134</description><status>open</status></posting><posting><id>7870</id><comLink>wang</comLink><salaryRate>50000</salaryRate><positionType>web</positionType><location>ct</location><description>good web</description><status>open</status></posting></postings>

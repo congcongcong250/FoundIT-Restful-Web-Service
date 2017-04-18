@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><companys>
+	<company>
+		<id>1212</id>
+		<name>google</name>
+		<detail>search</detail>
+		<webSite>google.com</webSite>
+		<industryType>zzz</industryType>
+		<address>lai</address>
+		<headQuarterAdd>lai</headQuarterAdd>
+		<phone>21331212</phone>
+	</company>
+
+
+	<company>
+		<id>1521</id>
+		<name>yahoo</name>
+		<detail/>
+		<webSite/>
+		<industryType/>
+		<address>cyb</address>
+		<headQuarterAdd>dssd</headQuarterAdd>
+		<phone/>
+	</company>
+
+	<company>
+		<id>9930</id>
+		<detail>111</detail>
+		<webSite>222</webSite>
+		<industryType>333</industryType>
+		<address>444</address>
+		<headQuarterAdd>555</headQuarterAdd>
+		<phone>999</phone>
+	</company>
+<company><id>6142</id><detail>good</detail><webSite>bad</webSite><industryType>it</industryType><address>maroubra</address><headQuarterAdd>nanning</headQuarterAdd><phone>111111</phone></company><company><id>4942</id><detail>123123</detail><webSite>123123</webSite><industryType>123123</industryType><address>123123</address><headQuarterAdd>123123</headQuarterAdd><phone>13123</phone></company><company><id>7514</id><detail>1241343</detail><webSite>134134</webSite><industryType>134134</industryType><address>4134</address><headQuarterAdd>134134</headQuarterAdd><phone>134134</phone></company><company><id>8830</id><detail>wang</detail><webSite>wang.com</webSite><industryType>web</industryType><address>syd</address><headQuarterAdd>syd</headQuarterAdd><phone>123</phone></company></companys>

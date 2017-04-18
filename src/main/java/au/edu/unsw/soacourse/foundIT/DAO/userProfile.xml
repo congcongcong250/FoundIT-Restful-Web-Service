@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><users>
+
+	<user>
+		<id>5001</id>
+		<fullname>likaiqiang</fullname>
+		<curPosition>CEO</curPosition>
+		<education>PHD</education>
+		<skill>java c python</skill>
+		<exp>3 years engineer</exp>
+	</user>
+
+	<user>
+		<id>5002</id>
+		<fullname>cyb</fullname>
+		<curPosition>CTO</curPosition>
+		<education>Master</education>
+		<skill>java c</skill>
+		<exp>3 years coder</exp>
+	</user>
+
+	<user>
+		<id>5003</id>
+		<fullname>wlr</fullname>
+		<curPosition>222CTO</curPosition>
+		<education>222Master</education>
+		<skill>222java c</skill>
+		<exp>2223 years coder</exp>
+	</user>
+	<user>
+		<id>5004</id>
+		<fullname>admin</fullname>
+		<curPosition>111CTO</curPosition>
+		<education>111Master</education>
+		<skill>111java c</skill>
+		<exp>1113 years coder</exp>
+	</user>
+
+
+	<user>
+		<id>8810</id>
+		<fullname>liren</fullname>
+		<curPosition>www</curPosition>
+		<education>eee</education>
+		<skill>qqq</skill>
+		<exp>bbb</exp>
+	</user>
+<user><id>397</id><fullname>wangliern</fullname><curPosition>ceo</curPosition><education>master</education><skill>java n python</skill><exp>0 year</exp></user><user><id>2588</id><fullname>new</fullname><curPosition>web</curPosition><education>unsw</education><skill>web</skill><exp>2years</exp></user><user><id>4662</id><fullname>qw1</fullname><curPosition>qw1</curPosition><education>qw1</education><skill>qw1</skill><exp>qw1</exp></user><user><id>2552</id><fullname>ca5</fullname><curPosition>ca5</curPosition><education>ca5</education><skill>ca5</skill><exp>ca5</exp></user><user><id>3835</id><fullname>ca5</fullname><curPosition>ca5</curPosition><education>ca5</education><skill>ca5</skill><exp>ca5</exp></user><user><id>1038</id><fullname>ca6</fullname><curPosition>ca6</curPosition><education>ca6</education><skill>ca6</skill><exp>ca6</exp></user><user><id>3123</id><fullname>qw2</fullname><curPosition>qw2</curPosition><education>qw2</education><skill>qw2</skill><exp>qw2</exp></user></users>
