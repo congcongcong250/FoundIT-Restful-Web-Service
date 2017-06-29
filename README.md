@@ -30,7 +30,7 @@ Employee Workflow
 Employer Workflow
 ![workflow](https://s3-ap-southeast-1.amazonaws.com/lirenxn-random-img/ClientIT-RESTful/employer.PNG)
 ## API and URL Design
-### /applications [applicationServiceProvider.java]{https://github.com/congcongcong250/FoundIT-Restful-Web-Service/blob/master/src/main/java/au/edu/unsw/soacourse/foundIT/provider/applicationServiceProvider.java}
+### /applications [applicationServiceProvider.java](https://github.com/congcongcong250/FoundIT-Restful-Web-Service/blob/master/src/main/java/au/edu/unsw/soacourse/foundIT/provider/applicationServiceProvider.java}
 #### /applications/{id}
 |Method|Description|Success|Error|
 |---|---|---|---|
@@ -52,6 +52,7 @@ Employer Workflow
 |Method|Description|Success|Error|
 |---|---|---|---|
 |PUT|Update an application|201 CREATED|404|
+
 ### /comProfiles [comProfileServiceProvider](https://github.com/congcongcong250/FoundIT-Restful-Web-Service/blob/master/src/main/java/au/edu/unsw/soacourse/foundIT/provider/comProfileServiceProvider.java)
 #### /comProfiles/{id}
 |Method|Description|Success|Error|
@@ -73,15 +74,20 @@ Employer Workflow
 |Method|Description|Success|Error|
 |---|---|---|---|
 |PUT|Update an company profile|201 CREATED|404|
+
 ### /jobPostings [jobPostingServiceProvider](https://github.com/congcongcong250/FoundIT-Restful-Web-Service/blob/master/src/main/java/au/edu/unsw/soacourse/foundIT/provider/jobPostingServiceProvider.java)
 #### /jobPostings/{id}
 |Method|Description|Success|Error|
 |---|---|---|---|
 |GET|Get jobPosting by id|200 XML of job posting|404|
-#### /jobPostings/all
+#### /jobPostings/searchJob
 |Method|Description|Success|Error|
 |---|---|---|---|
 |GET(Query with job key words)|Get job posting by query|200 XML of jobpostings|404|
+#### /jobPostings/searchCompanyPost
+|Method|Description|Success|Error|
+|---|---|---|---|
+|GET(Query with company key words)|Get job posting by query|200 XML of jobpostings|404|
 #### /jobPostings/count
 |Method|Description|Success|Error|
 |---|---|---|---|
@@ -98,5 +104,83 @@ Employer Workflow
 |Method|Description|Success|Error|
 |---|---|---|---|
 |PUT|Update an job posting|201 CREATED|404|
-## Authentication
 
+### /reviews [reviewServiceProvider](https://github.com/congcongcong250/FoundIT-Restful-Web-Service/blob/master/src/main/java/au/edu/unsw/soacourse/foundIT/provider/reviewServiceProvider.java)
+#### /reviews/{id}
+|Method|Description|Success|Error|
+|---|---|---|---|
+|GET|Get review by id|200 review XML|404|
+|DELETE|Delete review by id|204 NO CONTENT|404|
+#### /reviews/count
+|Method|Description|Success|Error|
+|---|---|---|---|
+|GET|Get number of reviews|200 number|400|
+#### /reviews/all
+|Method|Description|Success|Error|
+|---|---|---|---|
+|GET|Get all reviews|200 List of job postings XML|404|
+#### /reviews/reviewer/{id}
+|Method|Description|Success|Error|
+|---|---|---|---|
+|GET|Get reviewers for an review|200 reviewers XML|404|
+#### /reviews
+|Method|Description|Success|Error|
+|---|---|---|---|
+|POST|Create a new review|201 CREATED|400|
+#### /reviews/update
+|Method|Description|Success|Error|
+|---|---|---|---|
+|PUT|Update an review|201 CREATED|404|
+
+### /userProfiles [userProfileServiceProvider](https://github.com/congcongcong250/FoundIT-Restful-Web-Service/blob/master/src/main/java/au/edu/unsw/soacourse/foundIT/provider/userProfileServiceProvider.java)
+#### /userProfiles/{id}
+|Method|Description|Success|Error|
+|---|---|---|---|
+|GET|Get user profiles by id|200 review XML|404|
+|DELETE|Delete user profiles by id|204 NO CONTENT|404|
+#### /userProfiles/count
+|Method|Description|Success|Error|
+|---|---|---|---|
+|GET|Get number of users|200 number|400|
+#### /userProfiles/all
+|Method|Description|Success|Error|
+|---|---|---|---|
+|GET|Get all users|200 List of users XML|404|
+#### /userProfiles
+|Method|Description|Success|Error|
+|---|---|---|---|
+|POST|Create a new user|201 CREATED|400|
+#### /userProfiles/update
+|Method|Description|Success|Error|
+|---|---|---|---|
+|PUT|Update an user|201 CREATED|404|
+
+### /hiringTeams [hiringTeamServiceProvider](https://github.com/congcongcong250/FoundIT-Restful-Web-Service/blob/master/src/main/java/au/edu/unsw/soacourse/foundIT/provider/hiringTeamServiceProvider.java)
+#### /hiringTeam/{Id}
+|Method|Description|Success|Error|
+|---|---|---|---|
+|GET|Get hiring team by id|200 review XML|404|
+|DELETE|Delete hiring team by id|204 NO CONTENT|404|
+#### /reviewer/{id}
+|Method|Description|Success|Error|
+|---|---|---|---|
+|GET|Get reviewer by id|200 review XML|404|
+|DELETE|Delete reviewer by id|204 NO CONTENT|404|
+|POST|Create a new reviewer|201 CREATED|400|
+#### /hiringTeam/all
+|Method|Description|Success|Error|
+|---|---|---|---|
+|GET|Get all hiringTeam|200 List of hiringTeam XML|404|
+#### /hiringTeam/update
+|Method|Description|Success|Error|
+|---|---|---|---|
+|PUT|Update an hiringTeam|201 CREATED|404|
+
+
+### /jobalerts [dataServiceProvider](https://github.com/congcongcong250/FoundIT-Restful-Web-Service/blob/master/src/main/java/au/edu/unsw/soacourse/foundIT/provider/dataServiceProvider.java)
+|Method|Description|Success|Error|
+|---|---|---|---|
+|GET|Get RSS feed for job posting alert|200 RSS feed XML|404|
+
+## Authentication
+Basic Auth
