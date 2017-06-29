@@ -30,7 +30,7 @@ Employee Workflow
 Employer Workflow
 ![workflow](https://s3-ap-southeast-1.amazonaws.com/lirenxn-random-img/ClientIT-RESTful/employer.PNG)
 ## API and URL Design
-### /applications [applicationServiceProvider.java](https://github.com/congcongcong250/FoundIT-Restful-Web-Service/blob/master/src/main/java/au/edu/unsw/soacourse/foundIT/provider/applicationServiceProvider.java}
+### /applications [applicationServiceProvider.java](https://github.com/congcongcong250/FoundIT-Restful-Web-Service/blob/master/src/main/java/au/edu/unsw/soacourse/foundIT/provider/applicationServiceProvider.java)
 #### /applications/{id}
 |Method|Description|Success|Error|
 |---|---|---|---|
